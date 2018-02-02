@@ -1,3 +1,4 @@
+//lilypad mudlib
 // file: globals.h
 
 #ifdef __SENSIBLE_MODIFIERS__
@@ -10,6 +11,7 @@
 
 #include "tests.h"
 
+#define MUDLIB_VER "0.1a"
 #define SINGLE_DIR "/single"
 #define CONFIG_DIR "/etc"
 #define LOG_DIR    "/log"
