@@ -1,3 +1,15 @@
+Original lil 0.3 README Text is below:
+
+Starting from the base lil 0.3 mudlib and fluffos 2.9
+driver, I am building a mud and security system. It
+will include basic mud functionality and commands that
+all muds have, which this lil build currently lacks.
+------------------------------------------------------
+
+
+Original README from Cratylus:
+------------------------------
+
 This is a repackaging of the Lil mudlib. It is
 incredibly barebones...you get a few commands, and
 that's it. This is for folks interested in making
