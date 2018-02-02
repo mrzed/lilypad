@@ -7,7 +7,7 @@
 ###############################################################################
 
 # name of this mud
-name : Lil
+name : Lilypad
 
 # port number to accept users on
 port number : 4000
@@ -18,10 +18,12 @@ address server ip : localhost
 address server port : 7374
 
 # absolute pathname of mudlib
-mudlib directory : c:\lil\lib
+#mudlib directory : c:\lil\lib
+mudlib directory : c:\mud\lilypad\lib
 
 # absolute pathname of driver/config dir
-binary directory : c:\lil\bin
+#binary directory : c:\lil\bin
+binary directory : c:\mud\lilypad\bin
 
 # debug.log and author/domain stats are stored here
 log directory : /log
