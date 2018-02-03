@@ -1,4 +1,4 @@
-// mudlib:   Lil 
+// Lilypad mudlib 
 // file:     user.c
 // purpose:  is the representation of an interactive (user) in the MUD
 
