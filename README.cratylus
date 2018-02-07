@@ -1,7 +1,6 @@
-# Lilypad Built from lil 0.3 README
-# Original README: README.cratylus
+Original lil 0.3 README Text is below:
 
-Starting from the base lil 0.3 mudlib and fluffos 2.23
+Starting from the base lil 0.3 mudlib and fluffos 2.9
 driver, I am building a mud and security system. It
 will include basic mud functionality and commands that
 all muds have, which this lil build currently lacks.
@@ -29,14 +28,13 @@ this it's because you are a hardcore...and I mean
 Instructions:
 -------------
 
-* type: cd fluffos-2.23-ds03
-* type: ./configure
+* type: cd fluffos-2.9-ds2.09/
+* type: ./configure lil
 * type: make
 * type: make install
 * type: cd ../bin
-* type: vi lilypad.cfg
+* type: vi mudos.cfg
 * change the mud bin and lib paths to wherever you put the mud.
-* type: ./driver ./lilypad.cfg &
+* type: ./driver ./mudos.cfg &
 
-- Cratylus 13 Feb 2008
-- Updated: zed 07 Feb 2018
+-Cratylus 13 Feb 2008
