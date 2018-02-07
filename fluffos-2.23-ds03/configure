@@ -4,9 +4,9 @@
 #To make this script work under MinGW, change the
 #top line to point to this: #!/bin/sh
 
-#Make the non-argument config be Dead Souls
+#Make the non-argument config be Lilypad
 if ! [ $1 ]; then
-ARG="ds"
+ARG="lily"
 else
 ARG=$1
 fi
@@ -17,6 +17,7 @@ echo "A generic build:	./configure generic"
 echo "For Dead Souls 2:	./configure ds"
 echo "For Sapidlib:	./configure sapid"
 echo "For Discworld: 	./configure dw"
+echo "For Lilypad: 	./configure lily"
 echo "For Lima: 	./configure lima"
 echo "For Skylib: 	./configure skylib"
 echo "For TMI-2:	./configure tmi2"
@@ -29,7 +30,7 @@ echo "For Foundation I:	./configure foundation"
 echo "For Foundation II:./configure foundation2"
 echo "For Nightmare IV:	./configure nm4"
 echo "----"
-echo "With no options, this script defaults to Dead Souls."
+echo "With no options, this script defaults to Lilypad."
 exit
 fi
 
@@ -49,11 +50,11 @@ else
 # Some stuff for Dead Souls not on Cygwin
 echo "Moving around some DS specific files..."
 if [ $ARG == "ds" ] || [ $ARG == "ds.debug" ]; then
-if ! [ -f ../bin/mudos.bak ]; then
-\rm -f ../bin/mudos.bak
-\mv -f ../bin/mudos.cfg ../bin/mudos.bak
-\cp -f ../bin/mudos.cfg.orig ../lib/secure/cfg/mudos.cfg
-ln -s ../lib/secure/cfg/mudos.cfg ../bin/mudos.cfg
+if ! [ -f ../bin/lilypad.bak ]; then
+\rm -f ../bin/lilypad.bak
+\mv -f ../bin/lilypad.cfg ../bin/lilypad.bak
+\cp -f ../bin/lilypad.cfg.orig ../lib/secure/cfg/lilypad.cfg
+ln -s ../lib/secure/cfg/lilypad.cfg ../bin/lilypad.cfg
 echo "File moves done"
 fi
 fi
