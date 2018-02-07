@@ -30,7 +30,7 @@ Instructions:
 -------------
 
 * type: cd fluffos-2.23-ds03
-* type: ./configure
+* type: ./configure lily
 * type: make
 * type: make install
 * type: cd ../bin
