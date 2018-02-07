@@ -30,6 +30,7 @@ Instructions:
 -------------
 
 * type: cd fluffos-2.23-ds03
+* type: chmod 755 ./configire ./build.Fluffos
 * type: ./configure lily
 * type: make
 * type: make install
