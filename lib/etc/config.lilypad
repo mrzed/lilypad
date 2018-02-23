@@ -7,21 +7,23 @@
 ###############################################################################
 
 # name of this mud
-name : Testsuite
+name : Lilypad
 
 # port number to accept users on
-port number : 4000
+port number : 4004
 
 # the address server is an external program that lets the mud translate
 # internet names to numbers (and vice versa).  select an unused port.
 address server ip : localhost
-address server port : 7374
+address server port : 4343
 
 # absolute pathname of mudlib
-mudlib directory : /gdir/apang/beta/testsuite
+#mudlib directory : /CHANGE/THIS/PATH/lib
+mudlib directory : ../lib
 
 # absolute pathname of driver/config dir
-binary directory : /gdir/apang/beta
+#binary directory : /CHANGE/THIS/PATH/bin
+binary directory : ../bin
 
 # debug.log and author/domain stats are stored here
 log directory : /log

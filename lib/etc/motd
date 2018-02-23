@@ -1,7 +1,11 @@
-The only commands in this little mudlib are:
+This lib is in early beginnings. Right now anyone can shutdown
+the mud as no security is in place. Only account cration and
+the following commands currently function in this little lib:
 
     dest, update, ed, eval, efun, rm, say, who, quit, and shutdown.
 
 All of update, dest, ed, and rm require full pathnames as arguments.
 
 Have fun.
+
+-Zed 2018-02-23

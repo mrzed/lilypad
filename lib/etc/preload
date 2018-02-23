@@ -1,0 +1,5 @@
+# Lilypad Mudlib Preload File
+# Items below will load automatically after the driver starts.
+# Lines that with a hash are ignored... Obviously.
+# zed @ Lilypad
+/secure/daemon/checkin
