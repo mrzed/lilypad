@@ -3,3 +3,4 @@
 # Lines that with a hash are ignored... Obviously.
 # zed @ Lilypad
 /secure/daemon/checkin
+/secure/daemon/hal

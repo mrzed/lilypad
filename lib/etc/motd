@@ -1,11 +1,19 @@
-This lib is in early beginnings. Right now anyone can shutdown
-the mud as no security is in place. Only account cration and
-the following commands currently function in this little lib:
+This lib is in early beginnings. There is a very basic secsurity
+system in place that seperates commands in the following ways:
 
-    dest, update, ed, eval, efun, rm, say, who, quit, and shutdown.
+Players:
+    say, who, and quit (help is just being developed)
 
-All of update, dest, ed, and rm require full pathnames as arguments.
+Creators:
+    all player commands, cd, dest, ed, eval, ls, pwd, rm, speed,
+    and update
+
+Admins:
+    all creator commands, player commands, codefor, promote,
+    shutdown, and tests. demote is being developed.
+
+Note: update, dest, ed, and rm require full pathnames as arguments.
 
 Have fun.
 
--Zed 2018-02-23
+-Zed 2018-02-25

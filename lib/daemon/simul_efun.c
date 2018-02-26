@@ -8,8 +8,6 @@
 #include <globals.h>
 #include <lpctypes.h>
 
-string colorize(string color, string str);
-
 int directory_exists(string dirname) {
     return (file_size(dirname) == -2);
 }
@@ -116,19 +114,6 @@ string dump_variable(mixed arg) {
 
        return "UNKNOWN";
    }
-}
-// Add colorization to texts
-// Zed @ Lilypad Mudlib
-// 2018-02-16
-
-varargs string colorize(string color, string arg2, string arg3) {
-    string reset = "RESET";
-    string msg = arg2;
-    if (arg3) {
-        reset = upper_case(arg2);
-        msg = arg3;
-    }
-    return sprintf("%%^%s%%^%s%%^%s%%^", upper_case(color), msg, reset);
 }
 
 /*

@@ -1,16 +1,14 @@
 #include <globals.h>
 
-int
-main(string file)
-{
+int main(string file) {
     object obj;
 
     // need to call resolve_path() and query_cwd()
     if (!file) {
 #ifndef __NO_ADD_ACTION__
-    return notify_fail("update what?\n");
+    return notify_fail("Update what?\n");
 #else
-    write("update what?\n");
+    write("Update what?\n");
     return 1;
 #endif
     }

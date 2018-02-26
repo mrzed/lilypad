@@ -1,0 +1,7 @@
+Daemons that should be secure will reside here.
+
+Current daemons in /single will be moved here if they should
+be secured, otherwise they will be moved to /daemon
+Dont forget to update the master.c
+
+-zed
