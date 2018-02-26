@@ -1,0 +1,8 @@
+This is the beginnings to the command file structure. Eventually all
+commands will be relocated to here and organized for security purposes.
+
+Defined:
+
+	players - anyone logged in can execute these commands
+	creators - only creators and above can execute these
+	admin - only admins can execute these
