@@ -1,0 +1,7 @@
+This is a development MUD named Lilypad. It is based on the
+testsuite mudlib known as lil. Things may work, and they may
+not. Don't get mad at me if they are hosed - this is, as
+stated, a mudlib under EXTREME development. The source I am
+working with can be found at GitHub, as is the original
+source.
+http://github.com/mrzed/lilypad
